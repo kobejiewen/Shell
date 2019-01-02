@@ -3,8 +3,6 @@
 #功能:修改平台域名
 ## 使用方式
 ##ssh root@ip -p 1022
-##sh edit_subdomain.sh
-
 
 #dnspod data
 DNSPOD=/opt/server_init/dnspod_cnf.ini
