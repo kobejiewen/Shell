@@ -1,12 +1,10 @@
 #!/bin/bash
 
 USER="root"
-PASSWORD="lua12378900"
+PASSWORD="123456"
 MYSQL_BACKUP_HOME="/opt/mynas/dataBackup"   # 数据库备份的目录
-# DATEBASE_CORE="control_core"    # 备份的数据库名称
 BACKUPPATH="/opt/mynas/logBackup/"   # 设备日志的备份路径
 DATE=$(date +%Y%m%d)    # 当天日期
-# IPFILE="/opt/mynas/ipsave.txt"   # ipsave.txt文件路径
 DAYFILE="/opt/mynas/configsave.txt" # 数据库备份的删除周期
 DELETE_CYCLE=30 # 默认删除周期为30天
 DELETE_DB_CYCLE=7 # 数据库备份只保留7天
@@ -19,7 +17,7 @@ NGINXDIR="/usr/local/nginx/conf/" # nginx安装目录
 NGINXCONF_ZIP="nginxconf.zip" # nginx升级包
 NGINXFILE="nginx.conf" # nginx文件名
 TOMCAT_LOG="/data/log/" #tomcat log日志
-WANGZHUAN_IMG="/opt/mynas/wangzhuan/" #网赚截图
+WANGZHUAN_IMG="/opt/mynas/wangzhuan/"
 
 function print(){
 	echo $1 >> "${LOG_FILE}"
