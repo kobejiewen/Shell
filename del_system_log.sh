@@ -26,4 +26,3 @@ then
 else
     echo "catalina.out文件不需要删除！"
 fi
-
