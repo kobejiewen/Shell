@@ -19,7 +19,7 @@ FONT="font" 	# 存放训练好的字库文件
 CRAWLER="crawler"	# 存放爬虫源码
 # 数据库信息
 USER="root"  
-PASSWORD="lua12378900"  
+PASSWORD="123456"
 
 NAS_DIR="/opt/mynas/" # nas的挂载目录
 FTP_DIR="/data/mynas/" # ftp的挂载目录
