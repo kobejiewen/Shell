@@ -9,7 +9,7 @@ LOG_FILE="${LOG_DIR}reset_server.log" # 执行日志
 
 # 数据库配置
 USERNAME='root'
-PASSWORD='lua12378900'
+PASSWORD='123456'
 
 function print(){
 	echo $1 >> "${LOG_FILE}"
